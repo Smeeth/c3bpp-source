@@ -126,4 +126,8 @@ sudo apt-get install certbot
 
 ## Testen der SSL-Qualität
 
-SSLlabs (Qualys)
+SSLlabs (Qualys):
+
+Hierzu mal checken:
+- https://github.com/TrullJ/ssllabs
+- http://www.h4hacks.com/2015/06/qualys-ssl-labs-api-multithreaded.html
