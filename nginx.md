@@ -106,18 +106,23 @@ sudo apt-get dist-upgrade -y
 sudo apt-get autoremove --purge -y
 sudo apt-get autoclean -y
 
-sudo apt-get install nginx-full -y
-
-sudo ufw allow "nginx Full"
-sudo ufw reload
-
-
 
 ## Installation von nginx
+sudo apt-get install nginx-full -y
 
 ## Firewall einstellen
+sudo ufw allow OpenSSH
+sudo ufw enable
+sudo ufw status verbose
+sudo ufw allow "nginx Full"
+sudo ufw reload
+sudo ufw status verbose
 
 ## Einstellungen in nginx für SSL-Betrieb
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot
 
 ## Testen der SSL-Qualität
 
