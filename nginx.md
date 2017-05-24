@@ -101,8 +101,21 @@ df -h
 Damit wäre die Vorbereitung bezüglich der Swap-Partition abgeschlossen.
 
 ## Synchronisation mit Zeitserver
+sudo apt-get update
+sudo apt-get dist-upgrade -y
+sudo apt-get autoremove --purge -y
+sudo apt-get autoclean -y
+
+sudo apt-get install nginx-full -y
+
+sudo ufw allow "nginx Full"
+sudo ufw reload
+
+
 
 ## Installation von nginx
+
+## Firewall einstellen
 
 ## Einstellungen in nginx für SSL-Betrieb
 
