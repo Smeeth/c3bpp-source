@@ -10,10 +10,10 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   server
-   dns
-   ssh
-   nginx
+   server.md
+   dns.md
+   ssh.md
+   nginx.md
 
 
 Indices and tables
