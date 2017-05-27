@@ -10,7 +10,10 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
+   server
+   dns
+   ssh
+   nginx
 
 
 Indices and tables
